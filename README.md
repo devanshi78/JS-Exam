@@ -6,14 +6,13 @@ A simple web project using **HTML**, **CSS**, **JavaScript**, and **Bootstrap**.
 
 ##  Structure
 
+```text
 JS-EXAM/
 ├── css/ (bootstrap.min.css, style.css)
 ├── image/ (bg.jpg, logo.svg)
 ├── js/ (bootstrap.bundle.min.js, script.js)
 └── index.html
-
-yaml
-Copy code
+```
 
 ---
 
