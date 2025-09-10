@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand"><img src="./image/logo.svg" alt="logo"></a>
+            <div>
+                <ul class="d-flex me-auto mb-2 mb-lg-0 gap-3">
+                    <li class="p-1">
+                        <a class="text-center text-dark-emphasis fs-5" href="./index.html">Home</a>
+                    </li>
+                    <li class="p-1">
+                        <a class="text-center text-dark-emphasis fs-5" href="./allproducts.html">Services</a>
+                    </li>
+                    <li class="p-1">
+                        <a class="text-center text-dark-emphasis fs-5" href="./allproducts.html">Terms</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" id="search" />
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="container">
+            <div class="row justify-content-center py-4">
+                <div class="col-md-5">
+                    <form onsubmit="sumbmitProduct(event)" class="card px-5 py-3">
+                        <div class="mb-3">
+                            <label for="title" class="form-label">Product Title</label>
+                            <input type="text" class="form-control" id="title" placeholder="Enter Product Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="price" class="form-label">Price</label>
+                            <input type="number" class="form-control" id="price" placeholder="Enter Price">
+                        </div>
+                        <div class="mb-3">
+                            <label for="p_image" class="form-label">Image URL</label>
+                            <input type="text" class="form-control" id="p_image">
+                        </div>
+                        <div class="mb-3">
+                            <label for="categories" class="form-label">categories</label>
+                            <select name="categories" class="form-select" id="categories">
+                                <option selected disabled>--select-cetegory</option>
+                                <option value="fruit">Skincare</option>
+                                <option value="vegetables">Footware</option>
+                                <option value="groceries">Glasses</option>
+                                <option value="fashion">Makeup</option>
+                                <option value="fashion">Electronics</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-25 my-2 mx-auto">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="row justify-content-center mt-2">
+            <div class="col-md-6">
+                <h3 class="text-dark-emphasis text-center">All Products</h3>
+            </div>
+        </div>
+    </div>
+    <section class="allprod my-2">
+        <div class="container">
+            <div class="row justify-content-center">
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+html,body{
+    scrollbar-width: none;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav ul li{
+    font-family :'Times New Roman', Times, serif
+}
+
+.banner{
+    background-image: url('../image/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 4px 0;
+}
+
+.banner .card{
+    background-color: #000000d6;
+    color: white;
+}
