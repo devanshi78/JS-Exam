@@ -49,4 +49,4 @@ https://js-exam-sage.vercel.app/
 ##  Screenshots
 
 ![Homepage](image/Screenshot%202025-09-10%20115857.png)  
-![Logo](image/Screenshot%202025-09-10%20115921.png)
+![Product](image/Screenshot%202025-09-10%20115921.png)
